@@ -1,0 +1,107 @@
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "AI & IoT"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Machine Learning - Inicio"
+
+		[params.navigation.links]
+			about     = "Acerca De"
+			services  = "Información"
+			portfolio = "Portfolio"
+			contact   = "Contacto"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Machine Learning & IoT"
+		subtitle   = "¿Has oído hablar del Machine Learning? Seguro que sí porque cada vez vemos más aplicaciones de esta técnica a nuestro alrededor, incluso en actos tan cotidianos como ir a un cajero o llamar a un taxi. Pero ¿te has preguntado alguna vez cómo funciona el aprendizaje automático? y por otro lado se encuentra IoT (Internet of Things)."
+		buttonText = "Más información"
+
+
+	# About section
+	[params.about]
+		headline    = "En construcción!"
+		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		buttonText  = "lorem!"
+
+
+	# Service section
+	[params.services]
+		headline = "lorem"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "aún sin información"
+            description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "aún sin información"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Up to Date"
+            description = "Lorem ipsum dolor sit amet, consectetur adipisicing."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Made with Love"
+            description = "Lorem ipsum dolor sit amet, consectetur adipisicing"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "aún sin información"
+
+		[params.aside.button]
+			text = "none"
+			link = "//edmodo.com/home"
+
+	# Contact section
+	[params.contact]
+		headline = "aún sin información"
+		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+		phone = "271-141-1522"
+		email = "feedback@.com"
+
+	# Google Maps section
+	 [params.location]
+	 	latitude  = "18.874435"
+	 	longitude = "-96.934837"
+	 	maps_api_key = ""
