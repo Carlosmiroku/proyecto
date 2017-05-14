@@ -1,6 +1,5 @@
 +++
 date = "2017-05-12T13:19:56-05:00"
-#draft = true
 title = "AI & IoT"
 
 +++
