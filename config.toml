@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "https://machine-learning-project.herokuapp.com/"
 languageCode = "en-us"
 title = "AI & IoT"
 theme = "hugo-creative-theme"
