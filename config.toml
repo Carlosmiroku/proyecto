@@ -43,7 +43,7 @@ googleAnalytics = ""
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Machine Learning & IoT"
 		subtitle   = "¿Has oído hablar del Machine Learning? Seguro que sí porque cada vez vemos más aplicaciones de esta técnica a nuestro alrededor, incluso en actos tan cotidianos como ir a un cajero o llamar a un taxi. Pero ¿te has preguntado alguna vez cómo funciona el aprendizaje automático? y por otro lado se encuentra IoT (Internet of Things)."
-		buttonText = "Más información"
+		buttonText = "Más info"
 
 
 	# About section
